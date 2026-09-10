@@ -1,0 +1,7 @@
+{
+  "name": "康德德語 ComeDeutsch",
+  "description": "康德德語 ComeDeutsch 德語線上教學官方網站，提供 A1 至 B2 德語檢定與會話課程、客製導師制度與 LINE 官方專屬線上課程諮詢。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

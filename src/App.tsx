@@ -5,7 +5,7 @@ import { CoursesSection } from './components/CoursesSection';
 import { AdvantagesSection } from './components/AdvantagesSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { TeachersSection } from './components/TeachersSection';
-// import { HonorsSection } from './components/HonorsSection';
+import { HonorsSection } from './components/HonorsSection';
 import { ActivitiesSection } from './components/ActivitiesSection';
 import { RulesSection } from './components/RulesSection';
 import { FaqSection } from './components/FaqSection';
@@ -42,7 +42,7 @@ export default function App() {
         <ReviewsSection onOpenLineModal={() => handleOpenLineModal('a1')} />
 
         {/* 7. 榮譽榜 */}
-        {/* <HonorsSection /> */}
+        <HonorsSection />
 
         {/* 8. 活動集錦 */}
         <ActivitiesSection />

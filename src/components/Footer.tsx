@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <img 
-                src="/logo.jpg" 
+                src="logo.jpg" 
                 alt="ComeDeutsch Logo" 
                 className="w-5 h-5 object-contain shrink-0" 
               />

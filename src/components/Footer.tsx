@@ -58,8 +58,8 @@ export const Footer: React.FC<FooterProps> = () => {
         {/* Bottom Copyright matching Screenshot 5 */}
         <div className="pt-8 border-t border-neutral-100 text-xs text-neutral-500">
           <p id="footer-copyright" className="text-center">
-            © Copyright 2026 All rights Reserved. 
-            <br className="sm:hidden" />
+            © Copyright 2026 All rights Reserved.
+            <br className="sm:hidden" />{' '}
             Designed by ComeDeutsch 康德德語股份有限公司 12345678
           </p>
         </div>

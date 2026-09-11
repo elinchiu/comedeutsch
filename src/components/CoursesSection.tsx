@@ -38,7 +38,7 @@ export const CoursesSection: React.FC<CoursesSectionProps> = ({ onSelectCourseFo
               <div
                 key={course.id}
                 id={`course-card-${course.id}`}
-                className="relative h-[360px] sm:h-[320px] w-full rounded-2xl cursor-pointer group [perspective:1000px]"
+                className="relative h-[440px] sm:h-[400px] w-full rounded-2xl cursor-pointer group [perspective:1000px]"
                 onClick={() => toggleFlip(course.id)}
               >
                 <div
@@ -83,7 +83,7 @@ export const CoursesSection: React.FC<CoursesSectionProps> = ({ onSelectCourseFo
                         </div>
                       </div>
                       
-                      <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
+                      <div className="flex-1">
                         <ul className="space-y-3">
                           {course.highlights.map((highlight, idx) => (
                             <li key={idx} className="flex items-start gap-2.5 text-sm text-neutral-700">
@@ -97,7 +97,7 @@ export const CoursesSection: React.FC<CoursesSectionProps> = ({ onSelectCourseFo
                       <div className="mt-4 pt-4 border-t border-neutral-300 flex flex-col gap-1.5">
                         <div className="text-xs text-neutral-500 flex items-center justify-between">
                           <span>適合對象：</span>
-                          <span className="text-neutral-800 truncate ml-2">{course.targetAudience}</span>
+                          <span className="text-neutral-800 ml-2">{course.targetAudience}</span>
                         </div>
                       </div>
                   </div>

@@ -141,19 +141,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLineModal }) => {
             </a>
           ))}
 
-          <div className="pt-2 border-t border-neutral-100">
-            <button
-              id="drawer-line-cta-btn"
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenLineModal();
-              }}
-              className="w-full py-3 rounded-xl bg-[#06C755] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-xs"
-            >
-              <MessageCircle className="w-4 h-4 fill-white" />
-              立即加入 LINE 官方諮詢課程
-            </button>
-          </div>
+          
         </div>
       )}
     </header>

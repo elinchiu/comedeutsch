@@ -4,10 +4,10 @@ import { Calendar } from 'lucide-react';
 export const ActivitiesSection: React.FC = () => {
   const activities = [
     {
-      title: '德國留學申請與 APS 審核完全攻略講座',
+      title: '德國留學申請完全攻略講座',
       date: '每雙月線上舉辦',
       tag: '線上講座',
-      desc: '由留德學長姐與教務主任線上拆解最新德國大學申請流程、動機信撰寫與 APS 視訊面試經驗。',
+      desc: '由留德學長姐與教務主任線上拆解最新德國大學申請流程、動機信撰寫。',
     },
     {
       title: '每週德語口語咖啡館 (Sprachcafé)',

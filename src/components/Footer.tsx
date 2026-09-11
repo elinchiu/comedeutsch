@@ -12,7 +12,7 @@ export const Footer: React.FC<FooterProps> = () => {
         {/* Main Footer Row matching Screenshot 5 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start mb-12">
           {/* Left Column matching Screenshot 5 */}
-          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center text-center">
             <div className="flex items-center gap-2 mb-2">
               <img 
                 src="logo.jpg" 
@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = () => {
           </div>
 
           {/* Middle Column matching Screenshot 5 */}
-          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center text-center">
             <h4 className="text-sm font-bold text-neutral-900 mb-2">Email Us</h4>
             <div className="h-10 flex items-center">
               <span
@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = () => {
           {/* Right Column matching Screenshot 5 */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h4 className="text-sm font-bold text-neutral-900 mb-2">Follow us</h4>
-            <div className="flex items-center justify-center md:justify-start gap-3 h-10">
+            <div className="flex items-center justify-center gap-3 h-10">
               <a
                 href="https://www.instagram.com/comedeutsch?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                 target="_blank"

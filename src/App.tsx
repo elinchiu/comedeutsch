@@ -42,7 +42,7 @@ export default function App() {
         <ReviewsSection onOpenLineModal={() => handleOpenLineModal('a1')} />
 
         {/* 7. 榮譽榜 */}
-        <HonorsSection />
+        {/* <HonorsSection /> */}
 
         {/* 8. 活動集錦 */}
         <ActivitiesSection />

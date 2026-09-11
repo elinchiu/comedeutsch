@@ -10,9 +10,9 @@ export const Footer: React.FC<FooterProps> = () => {
     <footer id="footer" className="bg-white border-t border-neutral-200 pt-14 pb-12 text-neutral-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Row matching Screenshot 5 */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Left Column matching Screenshot 5 */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <div className="flex items-center gap-2 mb-2">
               <img 
                 src="logo.jpg" 
@@ -39,9 +39,9 @@ export const Footer: React.FC<FooterProps> = () => {
           </div>
 
           {/* Right Column matching Screenshot 5 */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center md:items-end md:text-right">
             <h4 className="text-sm font-bold text-neutral-900 mb-2">Follow us</h4>
-            <div className="flex items-center justify-center gap-3 h-10">
+            <div className="flex items-center justify-center md:justify-end gap-3 h-10">
               <a
                 href="https://www.instagram.com/comedeutsch?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                 target="_blank"

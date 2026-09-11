@@ -39,9 +39,9 @@ export const Footer: React.FC<FooterProps> = () => {
           </div>
 
           {/* Right Column matching Screenshot 5 */}
-          <div>
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h4 className="text-sm font-bold text-neutral-900 mb-2">Follow us</h4>
-            <div className="flex items-center gap-3 h-10">
+            <div className="flex items-center justify-center md:justify-start gap-3 h-10">
               <a
                 href="https://www.instagram.com/comedeutsch?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                 target="_blank"
@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = () => {
 
         {/* Bottom Copyright matching Screenshot 5 */}
         <div className="pt-8 border-t border-neutral-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
-          <p id="footer-copyright">
+          <p id="footer-copyright" className="text-center sm:text-left">
             © Copyright 2026 All rights Reserved. Design by ComeDeutsch 康德德語股份有限公司 12345678
           </p>
         </div>

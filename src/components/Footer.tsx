@@ -10,7 +10,7 @@ export const Footer: React.FC<FooterProps> = () => {
     <footer id="footer" className="bg-white border-t border-neutral-200 pt-14 pb-12 text-neutral-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Row matching Screenshot 5 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start mb-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8 mb-12">
           {/* Left Column matching Screenshot 5 */}
           <div className="flex flex-col items-center text-center">
             <div className="flex items-center gap-2 mb-2">

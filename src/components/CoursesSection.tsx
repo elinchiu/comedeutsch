@@ -23,7 +23,7 @@ export const CoursesSection: React.FC<CoursesSectionProps> = ({ onSelectCourseFo
         <div className="mb-14">
           <h2
             id="courses-heading"
-            className="text-[55px] leading-[55px] font-black text-neutral-950 tracking-tight"
+            className="text-[32px] leading-[32px] sm:text-[42px] sm:leading-[42px] md:text-[55px] md:leading-[55px] font-black text-neutral-950 tracking-tight"
           >
             程度介紹
           </h2>

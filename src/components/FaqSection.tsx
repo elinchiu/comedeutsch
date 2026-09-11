@@ -63,7 +63,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenLineModal }) => {
         </div>
 
         {/* Quick FAQ Footer CTA */}
-        <div className="mt-12 p-6 bg-[#f0fbf4] rounded-2xl border border-[#d1f2dd] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="mt-12 text-center p-6 bg-[#f0fbf4] rounded-2xl border border-[#d1f2dd] flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-left">
             <div className="font-bold text-neutral-900 text-sm sm:text-base">
               還有疑問嗎？

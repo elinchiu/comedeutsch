@@ -110,7 +110,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLineModal }) => {
             className="inline-flex sm:hidden items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#06C755] text-white text-xs font-bold"
           >
             <MessageCircle className="w-3.5 h-3.5 fill-white" />
-            LINE 諮詢
+            我要諮詢
           </button>
 
           <button

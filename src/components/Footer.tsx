@@ -59,7 +59,7 @@ export const Footer: React.FC<FooterProps> = () => {
         <div className="pt-8 border-t border-neutral-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <p id="footer-copyright" className="text-center sm:text-left">
             © Copyright 2026 All rights Reserved.
-            <br />
+            <br className="sm:hidden" />
             Designed by ComeDeutsch 康德德語股份有限公司 12345678
           </p>
         </div>

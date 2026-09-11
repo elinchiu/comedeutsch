@@ -60,31 +60,31 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLineModal }) => 
         </div>
 
         {/* Key Trust Signals Bar */}
-<div className="mt-12 sm:mt-14 flex flex-col sm:flex-row flex-wrap items-center sm:items-stretch justify-center gap-3 sm:gap-4 max-w-3xl mx-auto text-left">
-  <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
-    <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
-      <Award className="w-4 h-4 text-amber-600 shrink-0" />
-      <span>檢定通過率 96%</span>
-    </div>
-    <p className="text-xs text-neutral-500 mt-1">Goethe & TestDaF 完整題型剖析</p>
-  </div>
-
-  <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
-    <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
-      <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
-      <span>雙軌導師制度</span>
-    </div>
-    <p className="text-xs text-neutral-500 mt-1">定期抽查學習進度與客製進度表</p>
-  </div>
-
-  <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
-    <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
-      <CheckCircle2 className="w-4 h-4 text-[#06C755] shrink-0" />
-      <span>LINE 即時諮詢</span>
-    </div>
-    <p className="text-xs text-neutral-500 mt-1">學習上遇到問題歡迎隨時詢問</p>
-  </div>
-</div>
+        <div className="mt-12 sm:mt-14 flex flex-col sm:flex-row flex-wrap items-center sm:items-stretch justify-center gap-3 sm:gap-4 max-w-3xl mx-auto text-left">
+          <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
+            <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
+              <Award className="w-4 h-4 text-amber-600 shrink-0" />
+              <span>檢定通過率 96%</span>
+            </div>
+            <p className="text-xs text-neutral-500 mt-1">Goethe & TestDaF 完整題型剖析</p>
+          </div>
+        
+          <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
+            <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
+              <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
+              <span>雙軌導師制度</span>
+            </div>
+            <p className="text-xs text-neutral-500 mt-1">定期抽查學習進度與客製進度表</p>
+          </div>
+        
+          <div className="w-fit bg-white/85 backdrop-blur-xs border border-neutral-200/80 rounded-xl p-3.5 shadow-xs">
+            <div className="flex items-center gap-2 text-neutral-900 font-bold text-sm">
+              <CheckCircle2 className="w-4 h-4 text-[#06C755] shrink-0" />
+              <span>LINE 即時諮詢</span>
+            </div>
+            <p className="text-xs text-neutral-500 mt-1">學習上遇到問題歡迎隨時詢問</p>
+          </div>
+        </div>
       </div>
     </section>
   );

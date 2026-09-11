@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = () => {
           </div>
 
           {/* Middle Column matching Screenshot 5 */}
-          <div>
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h4 className="text-sm font-bold text-neutral-900 mb-2">Email Us</h4>
             <div className="h-10 flex items-center">
               <span

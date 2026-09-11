@@ -12,7 +12,7 @@ export const Footer: React.FC<FooterProps> = () => {
         {/* Main Footer Row matching Screenshot 5 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start mb-12">
           {/* Left Column matching Screenshot 5 */}
-          <div>
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <div className="flex items-center gap-2 mb-2">
               <img 
                 src="logo.jpg" 

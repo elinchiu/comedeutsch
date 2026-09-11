@@ -14,7 +14,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLineModal }) => 
       {/* Background Image with soft translucent overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero_cover.jpg"
+          src="hero_cover.jpg"
           alt="康德德語學習環境"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center filter brightness-[1.05] contrast-[0.95] blur-[1px] scale-105"

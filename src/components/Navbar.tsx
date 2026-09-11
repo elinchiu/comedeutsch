@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLineModal }) => {
         >
           {/* Brand Logo */}
           <img 
-            src="/logo.jpg" 
+            src="logo.jpg" 
             alt="ComeDeutsch Logo" 
             className="w-7 h-7 object-contain shrink-0 drop-shadow-sm group-hover:scale-105 transition-transform" 
           />

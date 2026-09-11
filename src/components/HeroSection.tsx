@@ -48,11 +48,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLineModal }) => 
         </p>
 
         {/* Main CTAs */}
-        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3.5 w-full sm:w-auto">
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3.5 w-auto">
           <button
             id="hero-line-cta-btn"
             onClick={onOpenLineModal}
-            className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-[#06C755] hover:bg-[#05b34c] active:bg-[#049a41] text-white font-bold text-[13px] shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2.5 cursor-pointer"
+            className="w-auto px-7 py-3.5 rounded-full bg-[#06C755] hover:bg-[#05b34c] active:bg-[#049a41] text-white font-bold text-[13px] shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2.5 cursor-pointer"
           >
             <MessageCircle className="w-5 h-5 fill-white" />
             <span>歡迎加 LINE 諮詢！</span>

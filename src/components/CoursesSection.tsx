@@ -97,7 +97,7 @@ export const CoursesSection: React.FC<CoursesSectionProps> = ({ onSelectCourseFo
                       <div className="mt-4 pt-4 border-t border-neutral-300 flex flex-col gap-1.5">
                         <div className="text-xs text-neutral-500 flex items-center justify-between">
                           <span>適合對象：</span>
-                          <span className="text-neutral-800 ml-2">{course.targetAudience}</span>
+                          <span className="text-neutral-800">{course.targetAudience}</span>
                         </div>
                       </div>
                   </div>
